@@ -1,12 +1,16 @@
-import MagiaDoJSX from "@/components/MagiaDoJSX/MagiaDoJSX";
 
 export default function Page() {
     return (
         <div>
-            <h2>Interfaces Modernas</h2>
-            <p>Bem-vindo à minha app em React e Next.js</p>
+            <div className="bg-blue-300 p-3 m-3 rounded-xl">
+                <h2>Desenvolvimento Web Moderno</h2>
 
-            <MagiaDoJSX />
+                <ul>
+                    <li>React e Next.js revolucionaram a criação de interfaces web.</li>
+                    <li>São usados por empresas como Facebook, Netflix e Airbnb.</li>
+                    <li>Dominar estas tecnologias abre muitas oportunidades!</li>
+                </ul>
+            </div>
         </div>
     )
 }

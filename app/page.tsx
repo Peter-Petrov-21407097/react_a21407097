@@ -1,4 +1,4 @@
-
+import Classificacao from "@/app/componentes/Classificacao";
 import MagiaDoJSX from "@/components/MagiaDoJSX/MagiaDoJSX";
 import Link from "next/link";
 

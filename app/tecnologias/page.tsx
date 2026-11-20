@@ -1,6 +1,7 @@
 
 import Image from "next/image";
 import tecnologias from "@/app/data/tecnologias.json";
+import Classificacao from "@/app/componentes/Classificacao";
 
 interface Tecnologia {
     title: string;
@@ -40,7 +41,10 @@ export default function Page() {
 
                         <p>{tecnologia.description}</p>
 
-                        <p>Classificação: {"⭐".repeat(tecnologia.rating)}</p>
+                        <div className="flex items-center gap-2">
+                            <span>Classificação:</span>
+                            <Classificacao rating={tecnologia.rating} />
+                        </div>
                     </div>
                 ))}
 

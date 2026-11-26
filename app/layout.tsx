@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import AnoAtual from "@/components/MagiaDoJSX/MagiaDoJSX/AnoAtual";
 import "./globals.css";
+import Relogio from "@/app/componentes/Relogio";
 
 export const metadata: Metadata = {
     title: "Interfaces Modernas",
@@ -28,6 +29,7 @@ export default function RootLayout({
                         <Link href="/tecnologias">Tecnologias</Link>
                         <Link href="/contador">Contador</Link>
                         <Link href="/input">Inputs</Link>
+                        <Link href="/relogio">Relógio</Link>
                     </nav>
                 </header>
 
@@ -35,8 +37,10 @@ export default function RootLayout({
                     {children}
                 </main>
 
-                <footer>
-                    © <AnoAtual /> - Interfaces Modernas - Criado por Pedro Santos
+                <footer className="flex flex-col items-center gap-2 mt-5 py-4">
+                    <Relogio />
+
+                    <p>© 2026 - Interfaces Modernas - Criado por Pedro Santos</p>
                 </footer>
 
             </body>

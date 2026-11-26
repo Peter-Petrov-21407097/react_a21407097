@@ -4,8 +4,7 @@ Programaçao com REACT para a disciplina de Desenvolvimento Web.
 
 Pagina url:
 
-
-https://react-a21407097-git-main-peter-petrov-21407097.vercel.app/
+https://react-a21407097.vercel.app/
 
 ATENÇÂO:
 
